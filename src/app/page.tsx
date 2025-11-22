@@ -1,6 +1,10 @@
+import SlideBar from "@/components/SlideBar"
+
 const HomePage = () => {
   return (
-    <div className=''>HomePage</div>
+    <div className=''>
+      <SlideBar/>
+    </div>
   )
 }
 
