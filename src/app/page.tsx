@@ -1,4 +1,5 @@
 import CategoryList from "@/components/CategoryList"
+import Filter from "@/components/Filter"
 import NewProducts from "@/components/NewProducts"
 import ProductList from "@/components/ProductList"
 import SlideBar from "@/components/SlideBar"
@@ -7,8 +8,12 @@ const HomePage = () => {
   return (
     <div className=''>
       <SlideBar />
+      <div className="mt-12 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
+        <Filter />
+      </div>
       <div className="mt-24  px-4 md:px-8 lg:px-16 xl:32 2xl:px-64">
         <h1 className="text-2xl">Featured Products</h1>
+
         <ProductList />
       </div>
       <div className="mt-24  ">
